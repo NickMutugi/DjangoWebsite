@@ -1,0 +1,192 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'blog/style1.css' %}" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>{% block title %} {% endblock %}</title>
+
+    {% block head %}
+    {% endblock %}
+</head>
+
+<body>
+
+<!-----------------------------------navigation----------------------------->
+<section id="nav-bar">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <a class="navbar-brand" href="#">AVATAR</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#service">SERVICES</a>
+                  </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#abouts">ABOUT</a>
+                        </li>
+                      <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                  </li>
+                <li class="nav-item">
+              <a class="nav-link" href="/contact/">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</section>
+
+
+<!------------------------------------header---------------------------------->
+<header id="header">
+  <div class="intro">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text"> <span>Welcome to,</span>
+            <h1>AVATAR</h1>
+            <p>Front and Back End Developers.UI/UX Design <br>
+              Solution to all IT problems.</p>
+            <a href="#about" class="btn btn-custom btn-lg page-scroll">More About Us</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!---------------------------------------services------------------------------>
+<section id="service">
+<div id="services" class="text-center">
+  <div class="container text-center">
+    <h2 class="title">What We DO?</h2>
+    <div class="col-md-10 col-md-offset-1 section-title">
+            </div>
+              <div class="row">
+                <div class="col-xs-6 col-md-3"> <i class="fa fa-comments-o"></i>
+                  <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+                      </div>
+                        <div class="col-xs-6 col-md-3"> <i class="fa fa-bullhorn"></i>
+                          <h4>Data Mining</h4>
+                        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
+                      </div>
+                    <div class="col-xs-6 col-md-3"> <i class="fa fa-group"></i>
+                  <h4>Database</h4>
+                <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+              </div>
+            <div class="col-xs-6 col-md-3"> <i class="fa fa-magic"></i>
+          <h4>Networking</h4>
+        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-------------------------------------About------------------------------->
+<section id="abouts">
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2 class="title">About Us</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6"> <img src="{% static 'images/about.png' %}" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="about-text">
+          <h3>We are The Best of The Best</h3>
+          <p>Welcome to Avatar, your number one source for all IT problems. We're dedicated to giving you the very best of services, with a focus on three characteristics, ie; quality,customer service and uniqueness.</p>
+          <p>When Avatar first started out, its passion was for helping with IT solutions but inspirations drove us to do intensive work on networking,database and datamining. We hope you enjoy our services as much as we enjoy your patnership with us. If you have any comments or questions don't hesitate to contact us</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!----------------------------testimonials------------------------->
+<section id="testimonials">
+  <div class="container text-center">
+    <h2 class="title">WHAT CLIENTS SAY</h2>
+    <div class="row">
+      <div class="col-md-4">
+
+        <img src="{% static 'images/01.jpg'%}" class="service-img">
+          <br>
+            <h5><b>DOMINIC KYAMBI</b></h5>
+              <p>"Avatar Co offers a powerful suite of tools that every marketing team must have. And if you get stuck, their support team is always helping out. I use Avatar for all my software design solutions. In one hour I can have a running and hosted website."</p>
+               <br><p>Phd Software Eng</p>
+                </div>
+                  <div class="col-md-4">
+                    <img src="{% static 'images/man1.png'%}" class="service-img">
+                      <br>
+                        <h5 class="royford"><b>DAVID NDEREBA</b></h5>
+                      <p>"Our inbound leads have grown so dramatically from our website and search optimization that we have hired a dedicated sales team that now only works on inbound leads. That was never possible until our company website was designed by Avatar Co." </p>
+                      <br><p>CEO HopeTrace</p>
+                  </div>
+                <div class="col-md-4">
+              <img src="{% static 'images/woman.jpg'%}" class="service-img">
+          <br>
+        <h5 class="royford"><b>NICK MUTUGI</b></h5>
+      <p>"Its not just the pretty face. I am also thrilled by the quality of support. It is fast, reliable and no complications at all. We are just awesome."</p><br>
+      <p>CEO Avatar Company.</p>
+    </div>
+  </div>
+</div>
+
+</section>
+<!--------------------------------------contact-------------------------------------------->
+<!---------------------------------------------------------------------------------------->
+<section id="contacts">
+<div id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-4 wow fadeInLeft" data-wow-delay="0.6s">
+						<h3><strong>Avatar</strong> Co.</h3>
+						<p>Your IT Solution. Feel free to find us on Social Media platforms and visit our offices at your own convenience.</p>
+						<ul class="social-icon">
+							<li><a href="#" class="fa fa-facebook"></a>facebook</li>
+							<li><a href="#" class="fa fa-twitter"></a>Twitter</li>
+							<li><a href="#" class="fa fa-instagram"></a>instagram</li>
+						</ul>
+					</div>
+				<div class="col-md-3 col-sm-4">
+						<address>
+							<h3>Visit Office</h3>
+							<p><i class="fa fa-map-marker too-icon"></i> 123 Dagoreti Westlands, Kenya</p>
+							<p><i class="fa fa-phone too-icon"></i>0727860286</p>
+              <p><i class="fa fa-phone too-icon"></i>0713339300</p>
+							<p><i class="fa fa-envelope-o too-icon"></i> hello@avatar.com</p>
+						</address>
+        </div>
+
+<form action="{% url 'thankyou' %}" method="POST" class="col-md-6 col-sm-4" id="contact-form">
+  {% csrf_token %}
+	<div class="col-md-6 col-sm-12 wow fadeIn" data-wow-delay="0.3s">
+		<input name='name2' type="text" class="form-control" id="name" placeholder="Name" required="required">
+				</div>
+						<div class="col-md-6 col-sm-12 wow fadeIn" data-wow-delay="0.3s">
+							<input name='email2' type="email" class="form-control" id="email" placeholder="Email" required="required">
+    							</div>
+      							<div class="col-md-12 col-sm-12 wow fadeIn" data-wow-delay="0.9s">
+  								<textarea name='message2' rows="5" class="form-control" id="message" placeholder="Message" required="required"></textarea>
+  							</div>
+							<div class="col-md-offset-9 col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+						<input name="submit" type="submit" class="form-control" id="submit" value="Send">
+					</div>
+				</form>
+			</div>
+		</div>
+  </div>
+</section>
+    {% block body %}
+    {% endblock %}
+
+  </body>
+</html>

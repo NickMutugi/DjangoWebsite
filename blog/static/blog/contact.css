@@ -1,0 +1,114 @@
+#contact {
+	padding: 100px 0 60px 0;
+}
+#contact form {
+	padding: 20px 0 60px 0;
+}
+#contact .text-danger {
+	color: #cc0033;
+	text-align: left;
+}
+label {
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+}
+#contact .form-control {
+	display: block;
+	width: 100%;
+	padding: 20px 10px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #222;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+#contact .form-control:focus {
+	border-color: #C54DAA;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+.form-control::-webkit-input-placeholder {
+color: #2c3e50;
+}
+.form-control:-moz-placeholder {
+color: #2c3e50;
+}
+.form-control::-moz-placeholder {
+color: #2c3e50;
+}
+.form-control:-ms-input-placeholder {
+color: #2c3e50;
+}
+#contact .social {
+	margin-top: 100px;
+}
+#contact .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#contact .social i.fa {
+	font-size: 28px;
+	padding: 4px;
+	color: #C54DAA;
+	transition: all 0.3s;
+}
+#contact .social i.fa:hover {
+	color: #444;
+}
+.btn:active, .btn.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: none;
+	outline-offset: none;
+}
+/*------------------------------navbar----------------------------------------*/
+.btn-custom {
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #C54DAA;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 15px;
+	border-radius: 0;
+	margin-top: 20px;
+	transition: all 0.3s;
+	border-top: 4px solid #b73c9b;
+	border-radius: 20px
+}
+/*-----------------------------dec--------------------------*/
+
+.title::before
+{
+  content: '';
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(42px);
+}
+.title::after
+{
+  content: '';
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-3px);
+}

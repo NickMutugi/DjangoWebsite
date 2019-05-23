@@ -1,0 +1,232 @@
+  body, html {
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #666;
+	font-weight: 300;
+	width: 100% !important;
+	height: 100% !important;
+}
+/*-----------------------------------navigation 2----------------------*/
+#nav-bar
+{
+  position:sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar
+{
+  height: 60px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  z-index: 100;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+  color: #fff !important;
+  font-weight: 400;
+}
+.on {
+	background-color: rgba(0,0,0,0.8) !important;
+	padding: 0 !important;
+}
+.section-title {
+	margin-bottom: 50px;
+}
+.section-title p {
+	font-size: 18px;
+	color: #888;
+}
+.btn-custom {
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #C54DAA;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 15px;
+	border-radius: 0;
+	margin-top: 20px;
+	transition: all 0.3s;
+	border-top: 4px solid #b73c9b;
+}
+.btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
+	color: #fff;
+	background-color: #b73c9b;
+}
+.intro {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url("/static/images/port02.jpg") no-repeat right bottom;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.intro .overlay {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1b71d6+0,c54daa+100&0.5+0,0.5+100 */
+	background: -moz-linear-gradient(top, rgba(27,113,214,0.5) 0%, rgba(197,77,170,0.5) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(27,113,214,0.5) 0%, rgba(197,77,170,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(27,113,214,0.5) 0%, rgba(197,77,170,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#801b71d6', endColorstr='#80c54daa', GradientType=0 ); /* IE6-9 */
+}
+.intro h1 {
+	color: rgba(255,255,255,0.9);
+	font-size: 72px;
+	font-weight: 800;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+.intro p {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 300;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+.intro span {
+	color: rgba(255,255,255,0.5);
+	font-size: 28px;
+	font-weight: 300;
+}
+header .intro-text {
+	padding-top: 250px;
+	padding-bottom: 200px;
+	padding-left: 100px;
+}
+/*-------------------end of header-------------------------------------*/
+/*----------------------------services--------------------------------*/
+/* Services Section */
+#services {
+	padding: 120px 0;
+}
+#services h4 {
+	color: #C54DAA;
+	text-transform: uppercase;
+}
+#services i.fa {
+	font-size: 38px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+	color: #fff;
+	width: 100px;
+	height: 100px;
+	padding: 30px 0;
+	background: #C54DAA;
+	border-radius: 50%;
+}
+.title::before
+{
+  content: '';
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(42px);
+}
+.title::after
+{
+  content: '';
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-3px);
+}
+#testimonials
+{
+  padding: 80x 0;
+  color: black;
+  background-color: #dbdcdd;
+}
+.service-img
+{
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  border-radius:200px;
+}
+/*------------------------------About---------------------------*/
+#about {
+	padding: 80px 0;
+	background: #f6f6f6;
+}
+#about .about-text {
+	margin-left: 10px;
+}
+#about .about-text h3 {
+	font-weight: 400;
+	color: #C54DAA;
+}
+#about img {
+	float: right;
+}
+#about p {
+	margin: 30px 0;
+	line-height: 22px;
+}
+/*---------------------------------contact-----------------------------------------*/
+#contact
+    {
+        background: url('/static/images/contact.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;
+    }
+#contact h3
+    {
+        font-weight: bold;
+        padding-bottom: 0;
+        margin-top: 20px
+    }
+#contact .fa
+    {
+        color: #93ca3a;
+        font-size: 18px;
+        padding-bottom: 14px;
+    }
+#contact .form-control
+    {
+        background: #f2f2f2;
+        border-radius: 4px;
+        box-shadow: none;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        transition: all 0.4s ease-in-out;
+    }
+#contact input
+    {
+        height: 50px;
+    }
+#contact input[type="submit"]
+    {
+        color: #202020;
+        font-weight: bold;
+        margin-bottom: 80px;
+    }
+#contact input[type="submit"]:hover
+    {
+        background: #93ca3a;
+    }
+ #contact .form-control::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+#contact .form-control:-ms-input-placeholder {
+  color: #666;
+}
+#contact .form-control::-webkit-input-placeholder {
+  color: #666;
+}
